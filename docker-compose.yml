@@ -102,6 +102,8 @@ services:
 volumes:
     db:
         driver: local
+    php:
+        driver: local
 
 networks:
     bitrixdock:
